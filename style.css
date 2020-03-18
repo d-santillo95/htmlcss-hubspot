@@ -7,6 +7,8 @@
 .container{
     max-width: 1080px;
     width: 95%;
+    margin: auto;
+    color: #33475b;
 }
 
 .container::after{
@@ -19,4 +21,141 @@
     content: ' ';
     display: table;
     clear: both;
+}
+
+.btn-white{
+    background-color: white;
+    border: 1px solid #ff7a59;
+    color: #ff7a59;
+    text-decoration: none;
+    border-radius: 0.1875rem;
+    padding: 0.655em 1.111em 0.355em;
+    margin-right: 1.111em;
+}
+
+.btn-small{
+    background-color: #ff7a59;
+    color: white;
+    text-decoration: none;
+    border-radius: 0.1875rem;
+    padding: 0.655em 1.111em 0.355em;
+}
+
+.btn{
+    background-color: #ff7a59;
+    color: white;
+    text-decoration: none;
+    border-radius: 0.1875rem;
+    padding: 1.411em 2em 1.211em;
+}
+
+#header-top{
+    width: 100%;
+    background-color: #f5f8fa;
+    border-bottom: 1px solid #cbd6e2;
+    padding: 0.75rem 0;
+    position: fixed;
+    top: 0;
+}
+
+#header-top-left{
+    float: left;
+    width: 50%;
+}
+
+#header-top-left .language{
+    float: left;
+    padding: 0.75rem 0;
+}
+
+.language i{
+}
+
+.language span{
+    padding: 0 0.25rem;
+}
+
+.language i:last-of-type{
+    padding-right: 0.75rem;
+    border-right: 2px solid #cbd6e2;
+}
+
+#header-top-left a{
+    float: left;
+    text-decoration: none;
+    padding: 0.75rem;
+    color: #33475b;
+}
+
+#header-top-right{
+    float:left;
+    width: 50%;
+    text-align: right;
+}
+
+#header-top-right i{
+    float: right;
+    padding: 0.655em 1.111em 0.355em;
+    color: #00a4bd;
+}
+
+#header-top-right a{
+    float: right;
+}
+
+#header-bottom{
+    margin-top: 67.4px;
+    padding: 0.75rem 0;
+}
+
+#logo{
+    float: left;
+    width: 30%;
+}
+
+#main-menu{
+    float: left;
+    width: 70%;
+    text-align: right;
+    position: relative;
+}
+
+#main-menu ul{
+    list-style: none;
+    position: absolute;
+    right: 0;
+}
+
+#main-menu li{
+    float: left;
+    padding: 0.5rem 0;
+}
+
+#main-menu a{
+    padding: 0.75rem 1rem;
+    color: #33475b;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#main-menu i{
+    padding-left: 0.25rem;
+}
+
+#jumbotron{
+    background-image: linear-gradient(#fff2ee 80%, #00a48d);
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+.jumbo{
+    width: 30%;
+}
+
+.jumbo h1{
+    margin-bottom: 10px;
+}
+
+.jumbo p{
+    margin: 40px 0;
 }
