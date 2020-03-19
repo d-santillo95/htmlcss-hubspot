@@ -33,6 +33,10 @@
     margin-right: 1.111em;
 }
 
+.btn-white:hover{
+    background-color: rgba(255, 122, 89, 0.1);
+}
+
 .btn-small{
     background-color: #ff7a59;
     color: white;
@@ -41,12 +45,20 @@
     padding: 0.655em 1.111em 0.355em;
 }
 
+.btn-small:hover{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+}
+
 .btn{
     background-color: #ff7a59;
     color: white;
     text-decoration: none;
     border-radius: 0.1875rem;
     padding: 1.411em 2em 1.211em;
+}
+
+.btn:hover{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
 }
 
 #header-top{
@@ -85,6 +97,10 @@
     color: #33475b;
 }
 
+.language:hover{
+    cursor:pointer;
+}
+
 #header-top-right{
     float:left;
     width: 50%;
@@ -95,6 +111,10 @@
     float: right;
     padding: 0.655em 1.111em 0.355em;
     color: #00a4bd;
+}
+
+#header-top-right i:hover{
+    cursor: pointer;
 }
 
 #header-top-right a{
@@ -186,6 +206,12 @@
     background-color: white;
     float: left;
     padding: 25px 15px;
+    box-shadow: 0 1px 6px rgba(0,0,0,.1);
+}
+
+.box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 2px 24px rgba(0,0,0,.2);
 }
 
 #planes-top .box{
@@ -331,16 +357,31 @@ footer a{
     text-decoration: none;
     padding: 10px 0;
     margin-right: 20px;
+    width: 100%;
+    display: inline-block;
+}
+
+footer a:hover{
+    color: #0091ae;
+}
+
+#footer-top li:nth-child(6):hover{
+    cursor: pointer;
 }
 
 #footer-top li:nth-child(7){
     margin: 30px 0;
 }
 
+#footer-top li:last-child a{
+    display: inline;
+}
+
 #footer-top .btn{
     background-color: white;
     color: #33475b;
     padding: 20px 15px;
+    display: inline;
 }
 
 #footer-middle{
@@ -382,10 +423,14 @@ footer a{
     text-align: right;
 }
 
+#privacy a{
+    display: inline;
+}
+
 #chat{
     display: inline-block;
-    background-color: #33475b;
-    padding: 20px;
+    background-color: rgb(66, 91, 118);
+    padding: 30px;
     box-shadow: 0 1px 6px rgba(0,0,0,.1);
     color: white;
     font-size: 25px;
@@ -394,4 +439,28 @@ footer a{
     bottom: 20px;
     right: 20px;
     z-index: 2;
+}
+
+#chat i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#chat .fa-times{
+        opacity: 0;
+}
+
+#chat:hover{
+    box-shadow: 0 2px 24px rgba(0,0,0,.2);
+    cursor: pointer;
+}
+
+#chat:active .fa-times{
+    opacity: 1;
+}
+
+#chat:active .fa-comments{
+    opacity: 0;
 }
