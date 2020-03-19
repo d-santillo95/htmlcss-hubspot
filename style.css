@@ -198,6 +198,7 @@
 
 .box p:first-of-type{
     float:left;
+    line-height: 25px;
 }
 
 .box p:nth-of-type(2){
@@ -254,4 +255,31 @@
 
 #planes-bottom .box:nth-of-type(2){
     margin: 0 2%;
+}
+
+#background-radiant{
+    background-image: linear-gradient(to right, #00a4bd, #00bda5);
+    text-align: center;
+    padding: 100px 0;
+}
+
+#background-radiant p{
+    color: white;
+    width: 80%;
+    margin: auto;
+}
+
+.box-radiant{
+    float: left;
+    width: 25%;
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+}
+
+.box-radiant:nth-of-type(4n+1){
+    border-left: none;
+}
+
+.box-radiant:nth-of-type(1n+5){
+    border-bottom: none;
 }
