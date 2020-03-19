@@ -56,6 +56,7 @@
     padding: 0.75rem 0;
     position: fixed;
     top: 0;
+    z-index: 2;
 }
 
 #header-top-left{
@@ -66,9 +67,6 @@
 #header-top-left .language{
     float: left;
     padding: 0.75rem 0;
-}
-
-.language i{
 }
 
 .language span{
@@ -158,4 +156,103 @@
 
 .jumbo p{
     margin: 40px 0;
+}
+
+#planes{
+    background-color: #f5f8fa;
+    padding: 50px 0;
+}
+
+#planes-top{
+    margin-bottom: 50px;
+}
+
+#planes-top .text{
+    float: left;
+    width: 34%;
+}
+
+.text p:first-child{
+    font-size: 24px
+}
+
+.text p:nth-child(2){
+    font-size: 18px;
+}
+
+.box{
+    width: 32%;
+    background-color: white;
+    float: left;
+    padding: 25px 15px;
+}
+
+#planes-top .box{
+    width: 66%;
+}
+
+.box img{
+    float: left;
+    margin-right: 5px;
+}
+
+.box p:first-of-type{
+    float:left;
+}
+
+.box p:nth-of-type(2){
+    clear: both;
+}
+
+.box hr{
+    float: right;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.box ul{
+    padding: 12px;
+    font-weight: 500;
+    list-style: none;
+    float: left;
+    width: 70%;
+}
+
+.box li{
+    float: left;
+    margin-right: 20px;
+    padding-top: 7px;
+    line-height: 25px;
+    clear: both;
+}
+
+.box li::before{
+    content: url(https://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/partners/images/Orange_Checkmark.svg);
+    width: 25px;
+    float: left;
+    margin-right: 10px
+}
+
+.btn-box{
+    float: right;
+    clear: both;
+    width: 100%;
+    text-align: center;
+}
+
+#planes-top hr{
+    width: 80%;
+}
+
+#planes-top .box li{
+    clear: none;
+}
+
+#planes-top .btn-box{
+    clear: none;
+    width: 30%;
+}
+
+#planes-bottom .box:nth-of-type(2){
+    margin: 0 2%;
 }
