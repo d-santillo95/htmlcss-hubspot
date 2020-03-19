@@ -147,6 +147,7 @@
 }
 
 .jumbo{
+    float:left;
     width: 30%;
 }
 
@@ -297,4 +298,14 @@
     float: left;
     width: 25%;
     padding: 20px 10px;
+}
+
+#free-start{
+    padding: 100px 0;
+}
+
+#free-start img{
+    float: left;
+    width: 70%;
+    padding-left: 400px;
 }
