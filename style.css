@@ -220,7 +220,7 @@ input{
     box-shadow: 0 2px 24px rgba(0,0,0,.2);
 }
 
-#link-software:hover #software{
+#main-menu li:hover .box-menu{
     display: inline-block;
 }
 
@@ -239,16 +239,50 @@ input{
     cursor: pointer;
 }
 
-#software-middle{
+.software-middle{
+    padding: 10px 0;
+}
+
+.software-middle:nth-child(2){
     border-top: 1px solid #cbd6e2;
     border-bottom: 1px solid #cbd6e2;
-    padding: 10px 0;
 }
 
 .box-software{
     float: left;
     width: 33.3%;
     padding: 10px;
+}
+
+.box-partners:hover{
+    background-color: rgba(131, 207, 222, 0.2);
+    cursor: pointer;
+}
+
+.box-partners{
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+
+.box-about{
+    float: left;
+    width: 32%;
+    list-style: none;
+}
+
+.box-about:nth-child(2){
+    margin: 0 2%;
+}
+
+.box-about li{
+    width: 100%;
+    padding: 10px 0;
+}
+
+.box-about li:nth-child(1n+2):hover{
+    background-color: rgba(131, 207, 222, 0.2);
+    cursor: pointer;
 }
 
 #jumbotron{
@@ -456,11 +490,20 @@ footer a:hover{
     color: #0091ae;
 }
 
-#footer-top li:nth-child(6):hover{
+#footer-top > ul > li:nth-child(6):hover{
     cursor: pointer;
 }
 
-#footer-top li:nth-child(7){
+#footer-top > ul > li:nth-child(6):active ul{
+    display: block;
+}
+
+#footer-top ul li ul{
+    display: none;
+    width: 100%;
+}
+
+#footer-top > ul > li:nth-child(7){
     margin: 30px 0;
 }
 
