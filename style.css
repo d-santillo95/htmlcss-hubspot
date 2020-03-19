@@ -167,7 +167,7 @@
     margin-bottom: 50px;
 }
 
-#planes-top .text{
+.text{
     float: left;
     width: 34%;
 }
@@ -282,4 +282,19 @@
 
 .box-radiant:nth-of-type(1n+5){
     border-bottom: none;
+}
+
+#partnership{
+    padding: 100px 0;
+}
+
+#partnership-right{
+    float: left;
+    width: 66%;
+}
+
+#partnership-right img{
+    float: left;
+    width: 25%;
+    padding: 20px 10px;
 }
