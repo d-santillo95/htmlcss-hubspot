@@ -69,6 +69,16 @@
     background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
 }
 
+.pinch{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    transform: rotate(45deg);
+    background-color: white;
+    border-top: 1px solid #cbd6e2;
+    border-left: 1px solid #cbd6e2;
+}
+
 #header-top{
     width: 100%;
     background-color: #f5f8fa;
@@ -137,6 +147,11 @@
 
 .language:hover{
     cursor:pointer;
+}
+
+#pinch-language{
+    bottom: 258px;
+    left: 91px;
 }
 
 #header-top-right{
@@ -267,7 +282,7 @@ input{
     padding: 10px 0;
 }
 
-.software-middle:nth-child(2){
+.software-middle:nth-child(3){
     border-top: 1px solid #cbd6e2;
     border-bottom: 1px solid #cbd6e2;
 }
@@ -293,6 +308,16 @@ input{
     font-weight: 300;
 }
 
+#pinch-software{
+    bottom: 281px;
+    left: 218.5px;
+}
+
+#pinch-resources{
+    bottom: 385px;
+    left: 467px;
+}
+
 .box-partners:hover{
     background-color: rgba(131, 207, 222, 0.2);
     cursor: pointer;
@@ -308,6 +333,11 @@ input{
     font-size: 14px;
     font-weight: 300;
     margin: 10px 0;
+}
+
+#pinch-partners{
+    bottom: 104px;
+    left: 603.5px;
 }
 
 .box-about{
@@ -335,11 +365,19 @@ input{
     cursor: pointer;
 }
 
+#pinch-about{
+    bottom: 234px;
+    left: 720px;
+}
+
 #jumbotron{
-    background-image: linear-gradient(#fff2ee 80%, #00a48d);
+    background-image: url(img/Background.png);
     padding-top: 90px;
     padding-bottom: 150px;
     box-shadow: 0 1px 6px rgba(0,0,0,.4);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .jumbo{
@@ -703,7 +741,7 @@ footer a:hover{
 }
 
 #footer-bottom{
-    border-top: 1px solid #f5f8fa;
+    border-top: 1px solid rgba(245, 248, 250, 0.3);
     padding-top: 20px;
 }
 
