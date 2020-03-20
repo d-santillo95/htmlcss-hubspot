@@ -33,7 +33,7 @@
     font-weight: 300;
     border-radius: 3px;
     padding: 14px 33px 11px;
-    margin-right: 12px
+    margin-right: 12px;
 }
 
 .btn-white:hover{
@@ -62,6 +62,7 @@
     padding: 28px 35px 23px;
     font-weight: 800;
     font-size: 17px;
+    max-width: 100%;
 }
 
 .btn:hover{
@@ -484,21 +485,32 @@ input{
 .box-radiant{
     float: left;
     width: 25%;
-    border-bottom: 1px solid white;
     border-left: 1px solid white;
+    margin-top: 60px;
+    padding: 35px 0 15px;
 }
 
 .box-radiant:nth-of-type(4n+1){
     border-left: none;
 }
 
-.box-radiant:nth-of-type(1n+5){
+#background-gradiant-bottom-box{
+    border-top: 1px solid white;
+}
+
+#background-gradiant-bottom-box .box-radiant{
     border-bottom: none;
+    margin-top: 0;
 }
 
 #background-radiant .box-radiant p:first-of-type{
-    font-size: 35px;
+    font-size: 45px;
     font-weight: 800;
+}
+
+#background-radiant .box-radiant p:nth-of-type(2){
+    font-size: 16px;
+    font-weight: 400;
 }
 
 #partnership{
@@ -538,6 +550,11 @@ input{
     width: 48%;
 }
 
+#free-start .jumbo p:nth-of-type(2){
+    width: 100%;
+}
+
+
 #free-start img{
     float: left;
     width: 52%;
@@ -557,7 +574,7 @@ footer ul{
 
 footer li{
     color: white;
-    padding: 10px 0;
+    padding: 0;
 }
 
 footer a{
@@ -571,6 +588,14 @@ footer a{
 
 footer a:hover{
     color: #0091ae;
+}
+
+#footer-top > ul >li:first-child{
+    font-size: 20px;
+}
+
+#footer-top > ul:nth-of-type(4) > li:nth-child(6){
+    margin: 10px 0;
 }
 
 #footer-top > ul > li:nth-child(6):hover{
@@ -587,28 +612,32 @@ footer a:hover{
 }
 
 #footer-top > ul > li:nth-child(7){
-    margin: 30px 0;
+    margin: 40px 0;
 }
 
-#footer-top li:last-child a{
+#footer-top > ul:nth-of-type(4) > li:last-child a{
     display: inline;
+    font-size: 20px;
 }
 
 #footer-top .btn{
+    font-size: 14px;
+    font-weight: 300;
     background-color: white;
     color: #33475b;
-    padding: 20px 15px;
+    padding: 15px 9px 12px;
     display: inline;
 }
 
 #footer-middle{
     padding: 50px 0;
+    position: relative;
 }
 
 #footer-middle ul{
     float: none;
-    width: 80%;
     margin: auto;
+    width: fit-content;
 }
 
 #footer-middle li{
