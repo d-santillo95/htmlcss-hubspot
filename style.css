@@ -309,12 +309,12 @@ input{
 }
 
 #pinch-software{
-    bottom: 281px;
+    bottom: 278px;
     left: 218.5px;
 }
 
 #pinch-resources{
-    bottom: 385px;
+    bottom: 378px;
     left: 467px;
 }
 
@@ -336,7 +336,7 @@ input{
 }
 
 #pinch-partners{
-    bottom: 104px;
+    bottom: 102px;
     left: 603.5px;
 }
 
@@ -366,7 +366,7 @@ input{
 }
 
 #pinch-about{
-    bottom: 234px;
+    bottom: 230px;
     left: 720px;
 }
 
@@ -629,6 +629,26 @@ input{
     float: left;
     width: 25%;
     padding: 30px 20px;
+}
+
+#partnership-right img:nth-child(3){
+    padding-top: 20px;
+}
+
+#partnership-right img:nth-child(4){
+    padding-top: 7px;
+}
+
+#partnership-right img:nth-child(5){
+    padding-top: 19px;
+}
+
+#partnership-right img:nth-child(7){
+    padding-top: 15px;
+}
+
+#partnership-right img:nth-child(8){
+    padding-top: 26px;
 }
 
 #free-start{
